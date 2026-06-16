@@ -1,16 +1,31 @@
 # Nili Gesser Academic Website
 
-Simple academic website built with HTML and CSS only.
+Simple static academic website for GitHub Pages.
 
 ## Files
-- index.html
-- style.css
 
-## How to upload to GitHub Pages
-1. Create a GitHub repository
-2. Upload the files
-3. Go to Settings → Pages
-4. Choose the main branch
-5. Save
+- `index.html`
+- `style.css`
+- `profile.jpg`
+- `conference.jpg`
+- `README.md`
 
-Your site will be published automatically.
+## Images
+
+- `profile.jpg` is used as the professional profile photo in the hero section.
+- `conference.jpg` is used later on the page in the academic engagement section.
+
+## Contact form
+
+The contact form uses `mailto:` and does not require a backend.
+
+## Uploading to GitHub Pages
+
+1. Create a new GitHub repository.
+2. Upload all files from this folder.
+3. Go to **Settings** → **Pages**.
+4. Choose **Deploy from a branch**.
+5. Choose `main` and `/root`.
+6. Save.
+
+GitHub will publish the website and provide a URL.
